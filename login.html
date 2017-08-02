@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <!-- footer-->
+ <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="screen" />
+ </script><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+ <!-- footer-->
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <title>KOS MALANG</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+</head>
+<body id="page-top" data-target=".navbar-fixed-top">
+
+  <section class="nav-section">
+    <nav class="navbar navbar-default navbar-doublerow navbar-trans navbar-fixed-top">
+    <!-- top nav -->
+    <nav class="navbar navbar-top hidden-xs">
+      <div class="container">
+        <!-- left nav top -->
+        <ul class="nav navbar-nav pull-left">
+          <li><span id="takeline">Situs cari kosan mudah & terpercaya</a></li>
+        </ul>
+        <!-- right nav top -->
+        <ul class="nav navbar-nav pull-right">
+          <li><a href="daftar.html" class="text-white">Daftar</a></li>
+          <li><a href="login.html" class="text-white">Login</a></li>
+        </ul>
+        <ul class="nav navbar-nav pull-right">
+        </ul>
+      </div>
+    </nav>
+    <!-- down nav -->
+    <nav class="navbar navbar-down" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="img/logoputih.png" id="logoatas"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse hidden-xs" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="page-scroll" href="populer.html">Populer</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="terbaru.html">Terbaru</a>
+                    </li>
+                    <li>
+                        <div class="input-group page-scroll" id="adv-search">
+                            <input type="text" class="form-control" placeholder="Search for " />
+                            <div class="input-group-btn">
+                                <div class="btn-group" role="group">
+                                    <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    </nav>
+  </section>
+
+  <div class="login-screen"></div>
+      <div class="login-center">
+          <div class="container min-height" style="margin-top: 20px;">
+          	<div class="row">
+                  <div class="col-xs-4 col-md-offset-8">
+                      <div class="login" id="card">
+                      	<div class="front signin_form">
+                          <p>Login Your Account</p>
+                            <form class="login-form" method="post" id="form_id">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <input type="text" name="username" id="username" class="form-control" placeholder="Type your username" required>
+                                        <span class="input-group-addon">
+                                            <i class="glyphicon glyphicon-user"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <input type="password" name="password" id="password" class="form-control" placeholder="Type your password" required>
+                                        <span class="input-group-addon">
+                                            <i class="glyphicon glyphicon-lock"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="checkbox">
+                                  <label><input type="checkbox">Remember me next time.</label>
+                                </div>
+                                <div class="form-group sign-btn">
+                                    <input type="button" class="btn" value="Login" id="submit" onclick="validate()">
+                                    <p><a href="#" class="forgot">Can't access your account?</a></p>
+                                    <p><strong>New to TimeInfo?</strong><br><a href="daftar.html" id="flip-btn" class="signup signup_link">Sign up for a new account</a></p>
+                                </div>
+                            </form>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Flip/1.0.18/jquery.flip.js"></script>
+
+
+
+
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <script src="js/login.js"></script>
+  </body>
+</html>

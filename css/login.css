@@ -1,0 +1,145 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+}
+
+body {
+    font-family: 'Raleway',sans-serif;
+    position: relative;
+    /*background: rgba(0, 0, 0, 0) url("../img/ptn.png") repeat scroll 0 0;*/
+}
+
+.in-page {
+    min-height: 520px;
+}
+
+.main {
+    position: relative;
+}
+
+a {
+    color: #1b5a7c;
+}
+
+a:hover, a:focus {
+    color: #1b5a7c;
+}
+
+.btn-cyan {
+    background-color: #1b5a7c;
+    color: #fff;
+}
+
+.btn-cyan:hover {
+    color: #fff;
+    opacity: 0.9;
+}
+
+.form-control:focus {
+    border-color: #1b5a7c;
+    box-shadow: none;
+    outline: 0 none;
+}
+
+.min-height {
+    min-height: 380px;
+}
+
+.login-screen {
+    background-image: url(../img/bromo1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.login-screen:before {
+    content: "";
+    background: rgba(0,0,0, 0.7);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.login-center {
+    text-align: left;
+}
+
+.login {
+    width: 320px;
+    color: #fff;
+}
+
+.login .login-form {
+    text-align: left;
+}
+
+.login label {
+    color: #fff;
+}
+
+.login-form .input-group .form-control {
+    background: none;
+    height: 44px;
+    color: #ddd;
+    border: none;
+    border-bottom:1px dotted #fff;
+    border-radius:0;
+}
+
+.login-form .input-group .input-group-addon {
+    background: none;
+    border: none;
+}
+
+.login-form .input-group .input-group-addon .glyphicon {
+    color: rgb(230, 232, 240);
+}
+
+.login-form .input-group .form-control::-moz-placeholder {
+    color: #fff;
+    opacity: 0.3;
+}
+
+.login .sign-btn input.btn {
+    background: #1b5a7c;
+    border-color: #1b5a7c;
+    color: #fff;
+    width: 180px;
+}
+
+.login .sign-btn a {
+    text-decoration: none;
+}
+
+.login .checkbox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.forgot, #flip-btn{
+  color: #d0d0d0;
+}
+
+.forgot:hover, #flip-btn:hover{
+  color: rgb(0, 194, 255);
+}
+
+.signin{
+  color: rgb(0, 194, 255);
+}
+
+.signin:hover{
+  color: rgb(85, 207, 246);
+}

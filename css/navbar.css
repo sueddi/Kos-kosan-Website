@@ -1,0 +1,126 @@
+#logoatas{
+  margin-top: -10px;
+  height: 45px;
+  width: 100%;
+}
+
+#takeline{
+  font-size: 13px;
+  color: #fff;
+}
+/*scroll effect*/
+.navbar-trans {
+  background-color: rgba(47, 120, 166, 0.85);
+  border: none;
+  transition: top 1s ease;
+}
+
+.navbar-top{
+  height: 30px;
+  background-color: rgba(0, 63, 110, 0.45);
+}
+
+/*double row*/
+.navbar-doublerow > .navbar{
+	display: block;
+	padding: 0px auto;
+	margin: 0px auto;
+	min-height: 25px;
+}
+.navbar-doublerow .nav{
+	padding: 0px auto;
+}
+.navbar-doublerow .dividline{
+  margin: 4px 100px;
+  padding-top: 1px;
+  background-color: inherit;
+}
+/*top nav*/
+.navbar-doublerow .navbar-top ul>li>a {
+	padding: 2px; auto;
+	font-size: 12px;
+}
+/*down nav*/
+.navbar-doublerow .navbar-down ul>li>a{
+	font-size: 16px;
+	color: #fff;
+	transition: border-bottom .2s ease-in , transform .2s ease-in-out;
+}
+.navbar-doublerow .navbar-down ul>li>a:hover{
+	color: #fff;
+  transform: scale(1.2, 1.2); /** default is 1, scale it to 1.5 */
+  opacity: 1;
+    position: relative;
+}
+.navbar-doublerow .navbar-top ul>li>a:hover{
+	background-color: rgba(255, 255, 255, 0.11);
+	color: #fff;
+}
+.navbar-doublerow .navbar-down .dropdown{
+    padding-top: 5px;
+    color: #000;
+}
+.navbar-doublerow .navbar-down ul > li > a:focus {
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+.navbar-doublerow .navbar-down ul > li > a:focus {
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+.navbar-doublerow.navbar-trans.afterscroll {
+   top:-30px;
+}
+/*text*/
+.text-white,.text-white-hover:hover{
+  color:#fff!important;
+}
+
+
+/*scrool*/
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+    #navbar-kanan{
+      text-align: right;
+    }
+    .navbar-top li {
+        margin-left : 0.5em;
+        margin-right : 0.5em;
+    }
+}
+
+.input-group-btn .btn-group {
+    display: flex !important;
+}
+
+@media screen and (min-width: 100px) {
+    #adv-search {
+        width: 300px;
+        margin: 10px; auto;
+    }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover{
+    background-color: rgb(0, 111, 173);
+}
+
+.navbar-default .navbar-toggle:focus{
+    background-color: rgb(0, 111, 173);
+}

@@ -1,0 +1,47 @@
+#footer{
+  padding-top: 100px;
+}
+
+#logobawah{
+  height: 100px;
+  width: 100%;
+  margin-top: -30px;
+}
+
+.copyright{
+  padding-top: 10px;
+    background-color:#eceaea;
+}
+
+.copyright p{
+	font-family:Roboto;
+}
+
+footer{
+	background-color:#dbdbdb;
+	min-height:200px;
+	padding:80px 0 5px 0;
+}
+
+.fa.fa-facebook , .fa.fa-instagram, .fa.fa-twitter-square ,.fa.fa-google-plus {
+	color:rgb(130, 130, 130);
+	font-size:20px;
+	padding:10px;
+	margin-bottom:50px;
+}
+
+.fa.fa-facebook:hover , .fa.fa-instagram:hover , .fa.fa-twitter-square:hover  ,.fa.fa-google-plus:hover   {
+	color:rgb(0, 156, 214);
+}
+
+#grsfooter{
+  background-color: rgb(184, 0, 0);
+}
+
+#aboutus{
+  color:rgb(130, 130, 130);
+}
+
+#aboutus:hover{
+  color:rgb(0, 156, 214);
+}
